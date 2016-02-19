@@ -172,13 +172,17 @@ aside {
     }
 }
 
+td {
+    text-align: left;
+}
+
 header {
     position: relative;
     width: 100%;
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/friseurutensilien_holz.jpg);
+    background-image: url(../img/darimobil_titelbild01.jpeg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -473,4 +477,18 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+.margined{
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+
+table tr th {
+  width: 100%;
+}
+
+.abstand-links .abstand-unten{
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
